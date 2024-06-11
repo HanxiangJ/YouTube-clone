@@ -1,0 +1,490 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Youtube.com Clone</title>
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+
+        <link rel="stylesheet" href="styles/general.css">
+        <link rel="stylesheet" href="styles/header.css">
+        <link rel="stylesheet" href="styles/video.css">
+        <link rel="stylesheet" href="styles/sidebar.css">
+    </head>
+    <body>
+        <header class="header">
+            <div class="left-section">
+                <img class="hamburger-menu" src="icons/hamburger-menu.svg">
+                <img class="youtube-logo" src="icons/youtube-logo.svg">
+            </div>
+            <div class="middle-section">
+                <input class="search-bar" type="text" placeholder="Search">
+                <button class="search-button">
+                    <img class="search-icon" src="icons/search.svg">
+                    <div class="tooltip">Search</div>
+                </button>
+                <button class="voice-search-button">
+                    <img class="video-search-icon" src="icons/voice-search-icon.svg">
+                    <div class="tooltip">Search with your voice</div> 
+                </button>
+            </div>
+            <div class="right-section">
+                <div class="upload-icon-container">
+                    <img class="upload-icon" src="icons/upload.svg">
+                    <div class="tooltip">Create</div> 
+                </div>
+                <div class="youtube-apps-icon-container">
+                    <img class="youtube-apps-icon" src="icons/youtube-apps.svg">
+                    <div class="tooltip">YouTube apps</div>
+                </div>
+                <div class="notifications-icon-container">
+                    <img class="notifications-icon" src="icons/notifications.svg">
+                    <div class="notifications-count">6</div>
+                    <div class="tooltip">Notifications</div>
+                </div>
+                <img class="current-user-picture" src="channel-pictures/my-channel.jpeg">
+            </div>
+        </header>
+
+        <nav class="sidebar">
+            <div class="sidebar-link">
+                <img src="icons/home.svg">
+                <div>home</div>
+            </div>
+            <div class="sidebar-link">
+                <img src="icons/explore.svg">
+                <div>Explore</div>
+            </div>
+            <div class="sidebar-link">
+                <img src="icons/subscriptions.svg">
+                <div>Subscriptions</div>
+            </div>
+            <div class="sidebar-link">
+                <img src="icons/originals.svg">
+                <div>originals</div>
+            </div>
+            <div class="sidebar-link">
+                <img src="icons/youtube-music.svg">
+                <div>YouTube Music</div>
+            </div>
+            <div class="sidebar-link">
+                <img src="icons/library.svg">
+                <div>Library</div>
+            </div>
+        </nav>
+
+        <main>
+            <section class="video-grid">
+
+                <div class="video-preview">
+                    <div class="thumbnail-row">
+                        <img class="thumbnail" src="thumbnail/thumbnail-1.webp">
+                        <div class="video-time">22:15:57</div>
+                    </div>
+                    <div class="video-info-grid">
+                        <div class="channel-picture">
+                            <img class="profile-picture" src="channel-pictures/channel-1.jpeg">
+                        </div>
+                        <div class="video-info">
+                            <p class="video-title">
+                                JavaScript Tutorial Full Course - Beginner to Pro (2024)
+                             </p>
+                 
+                             <p class="video-author">
+                                SuperSimpleDev
+                             </p>
+                 
+                             <p class="video-stats">
+                                434K views &#183; 1 month ago
+                             </p>
+                        </div> 
+                    </div>
+                </div>
+        
+                <div class="video-preview">
+                    <div class="thumbnail-row">
+                        <img class="thumbnail" src="thumbnail/thumbnail-2.webp">
+                        <div class="video-time">45:32</div>
+                    </div>
+                    <div class="video-info-grid">
+                        <div class="channel-picture">
+                            <img class="profile-picture" src="channel-pictures/channel-2.jpeg">
+                        </div>
+                        <div class="video-info">
+                            <p class="video-title">
+                                When TRAVEL Inspires Your PLANTS HOME TOUR — Ep. 250
+                            </p>
+                 
+                             <p class="video-author">
+                                Summer Rayne Oakes
+                             </p>
+                 
+                             <p class="video-stats">
+                                93K views &#183; 2 years ago
+                             </p>
+                        </div> 
+                    </div>
+                </div>
+        
+                <div class="video-preview">
+                    <div class="thumbnail-row">
+                        <img class="thumbnail" src="thumbnail/thumbnail-3.webp">
+                        <div class="video-time">11:54:59</div>
+                    </div>
+                    <div class="video-info-grid">
+                        <div class="channel-picture">
+                            <img class="profile-picture" src="channel-pictures/channel-3.jpeg">
+                        </div>
+                        <div class="video-info">
+                            <p class="video-title">
+                                Daily Work Space 📚 Lofi Deep Focus Study / 
+                                Work Concentration [chill lo-fi hiphop beats]
+                             </p>
+                 
+                             <p class="video-author">
+                                Little Soul
+                             </p>
+                 
+                             <p class="video-stats">
+                                342K views &#183; Streamed 4 months ago
+                             </p>
+                        </div> 
+                    </div>
+                </div>
+        
+                <div class="video-preview">
+                    <div class="thumbnail-row">
+                        <img class="thumbnail" src="thumbnail/thumbnail-4.webp">
+                        <div class="video-time">41:40</div>
+                    </div>
+                    <div class="video-info-grid">
+                        <div class="channel-picture">
+                            <img class="profile-picture" src="channel-pictures/channel-4.jpeg">
+                        </div>
+                        <div class="video-info">
+                            <p class="video-title">
+                                How to propagate your Monstera with 100% success (includes results after 4 months)
+                            </p>
+                 
+                             <p class="video-author">
+                                Sydney Plant Guy
+                             </p>
+                 
+                             <p class="video-stats">
+                                28K views &#183; 3 months ago
+                             </p>
+                        </div> 
+                    </div>
+                </div>
+        
+                <div class="video-preview">
+                    <div class="thumbnail-row">
+                        <img class="thumbnail" src="thumbnail/thumbnail-5.webp">
+                        <div class="video-time">8:15</div>
+                    </div>
+                    <div class="video-info-grid">
+                        <div class="channel-picture">
+                            <img class="profile-picture" src="channel-pictures/channel-5.jpeg">
+                        </div>
+                        <div class="video-info">
+                            <p class="video-title">
+                                Is Prague Castle OVERRATED ?! (Well, yes, but...)
+                             </p>
+                 
+                             <p class="video-author">
+                                HONEST GUIDE
+                             </p>
+                 
+                             <p class="video-stats">
+                                51K views &#183; 8 days ago
+                             </p>
+                        </div> 
+                    </div>
+                </div>
+        
+                <div class="video-preview">
+                    <div class="thumbnail-row">
+                        <img class="thumbnail" src="thumbnail/thumbnail-6.webp">
+                        <div class="video-time">19:59</div>
+                    </div>
+                    <div class="video-info-grid">
+                        <div class="channel-picture">
+                            <img class="profile-picture" src="channel-pictures/channel-6.jpeg">
+                        </div>
+                        <div class="video-info">
+                            <p class="video-title">
+                                Adventure in Bordeaux France? 
+                                Fun in The World's Most Iconic Wine Region!
+                            </p>
+                 
+                             <p class="video-author">
+                                V is for Vino Wine Show
+                             </p>
+                 
+                             <p class="video-stats">
+                                719K views &#183; 1 year ago
+                             </p>
+                        </div> 
+                    </div>
+                </div>
+
+                <div class="video-preview">
+                    <div class="thumbnail-row">
+                        <img class="thumbnail" src="thumbnail/thumbnail-7.webp">
+                        <div class="video-time">1:10:29</div>
+                    </div>
+                    <div class="video-info-grid">
+                        <div class="channel-picture">
+                            <img class="profile-picture" src="channel-pictures/channel-7.jpeg">
+                        </div>
+                        <div class="video-info">
+                            <p class="video-title">
+                                Limites - chemin de croix d'une jeune gymnaste | ARTE
+                            </p>
+                 
+                             <p class="video-author">
+                                ARTE
+                             </p>
+                 
+                             <p class="video-stats">
+                                129 views &#183; 30 minutes ago
+                             </p>
+                        </div> 
+                    </div>
+                </div>
+        
+                <div class="video-preview">
+                    <div class="thumbnail-row">
+                        <img class="thumbnail" src="thumbnail/thumbnail-8.webp">
+                        <div class="video-time">12:29</div>
+                    </div>
+                    <div class="video-info-grid">
+                        <div class="channel-picture">
+                            <img class="profile-picture" src="channel-pictures/channel-8.jpeg">
+                        </div>
+                        <div class="video-info">
+                            <p class="video-title">
+                                What Happens to Your Body On Creatine?
+                             </p>
+                 
+                             <p class="video-author">
+                                Gravity Transformation - Fat Loss Experts
+                             </p>
+                 
+                             <p class="video-stats">
+                                7.5M views &#183; 2 years ago
+                             </p>
+                        </div> 
+                    </div>
+                </div>
+        
+                <div class="video-preview">
+                    <div class="thumbnail-row">
+                        <img class="thumbnail" src="thumbnail/thumbnail-9.webp">
+                        <div class="video-time">7:15</div>
+                    </div>
+                    <div class="video-info-grid">
+                        <div class="channel-picture">
+                            <img class="profile-picture" src="channel-pictures/channel-9.jpeg">
+                        </div>
+                        <div class="video-info">
+                            <p class="video-title">
+                                Key Grape Varieties: Cabernet Sauvignon - 
+                                Beginner's Version for WSET Level 1 and WSET Level 2 Wine
+                            </p>
+                 
+                             <p class="video-author">
+                                Wine With Jimmy
+                             </p>
+                 
+                             <p class="video-stats">
+                                18K views &#183; 4 years ago
+                             </p>
+                        </div> 
+                    </div>
+                </div>
+        
+                <div class="video-preview">
+                    <div class="thumbnail-row">
+                        <img class="thumbnail" src="thumbnail/thumbnail-10.webp">
+                        <div class="video-time">17:29</div>
+                    </div>
+                    <div class="video-info-grid">
+                        <div class="channel-picture">
+                            <img class="profile-picture" src="channel-pictures/channel-10.jpeg">
+                        </div>
+                        <div class="video-info">
+                            <p class="video-title">
+                                my startup got roasted by the internet
+                             </p>
+                 
+                             <p class="video-author">
+                                Jacob Sucks At Code
+                             </p>
+                 
+                             <p class="video-stats">
+                                21K views &#183; 10 days ago
+                             </p>
+                        </div> 
+                    </div>
+                </div>
+
+                <div class="video-preview">
+                    <div class="thumbnail-row">
+                        <img class="thumbnail" src="thumbnail/thumbnail-11.webp">
+                        <div class="video-time">13:31</div>
+                    </div>
+                    <div class="video-info-grid">
+                        <div class="channel-picture">
+                            <img class="profile-picture" src="channel-pictures/channel-11.jpeg">
+                        </div>
+                        <div class="video-info">
+                            <p class="video-title">
+                                25 Minute Spicy Noodle Stir Fry | Weeknighting
+                            </p>
+                 
+                             <p class="video-author">
+                                Brian Lagerstrom 
+                             </p>
+                 
+                             <p class="video-stats">
+                                87K views &#183; 18 hours ago
+                             </p>
+                        </div> 
+                    </div>
+                </div>
+        
+                <div class="video-preview">
+                    <div class="thumbnail-row">
+                        <img class="thumbnail" src="thumbnail/thumbnail-12.webp">
+                        <div class="video-time">9:23</div>
+                    </div>
+                    <div class="video-info-grid">
+                        <div class="channel-picture">
+                            <img class="profile-picture" src="channel-pictures/channel-12.jpeg">
+                        </div>
+                        <div class="video-info">
+                            <p class="video-title">
+                                The stoic idea that will make you unstoppable
+                             </p>
+                 
+                             <p class="video-author">
+                                Better Ideas
+                             </p>
+                 
+                             <p class="video-stats">
+                                650K views &#183; 2 years ago
+                             </p>
+                        </div> 
+                    </div>
+                </div>
+        
+                <div class="video-preview">
+                    <div class="thumbnail-row">
+                        <img class="thumbnail" src="thumbnail/thumbnail-13.webp">
+                        <div class="video-time">12:53</div>
+                    </div>
+                    <div class="video-info-grid">
+                        <div class="channel-picture">
+                            <img class="profile-picture" src="channel-pictures/channel-13.jpeg">
+                        </div>
+                        <div class="video-info">
+                            <p class="video-title">
+                                How a Texas BBQ Joint Fused Tex-Mex and Craft Barbecue 
+                                — Smoke Point
+                            </p>
+                 
+                             <p class="video-author">
+                                Eater
+                             </p>
+                 
+                             <p class="video-stats">
+                                103K views &#183; 20 hours ago
+                             </p>
+                        </div> 
+                    </div>
+                </div>
+        
+                <div class="video-preview">
+                    <div class="thumbnail-row">
+                        <img class="thumbnail" src="thumbnail/thumbnail-14.webp">
+                        <div class="video-time">13:45</div>
+                    </div>
+                    <div class="video-info-grid">
+                        <div class="channel-picture">
+                            <img class="profile-picture" src="channel-pictures/channel-14.jpeg">
+                        </div>
+                        <div class="video-info">
+                            <p class="video-title">
+                                Maîtrisez les Voyelles Nasales en Français : 
+                                Astuces et Exemples
+                             </p>
+                 
+                             <p class="video-author">
+                                French School TV
+                             </p>
+                 
+                             <p class="video-stats">
+                                2K views &#183; 19 hours ago
+                             </p>
+                        </div> 
+                    </div>
+                </div>
+
+                <div class="video-preview">
+                    <div class="thumbnail-row">
+                        <img class="thumbnail" src="thumbnail/thumbnail-15.webp">
+                        <div class="video-time">29:46</div>
+                    </div>
+                    <div class="video-info-grid">
+                        <div class="channel-picture">
+                            <img class="profile-picture" src="channel-pictures/channel-15.jpeg">
+                        </div>
+                        <div class="video-info">
+                            <p class="video-title">
+                                EXTREME BEDROOM MAKEOVER 
+                                *DIY Striped Ceiling & Furniture Flips! 
+                                (From Start to Finish)
+                            </p>
+                 
+                             <p class="video-author">
+                                Lone Fox
+                             </p>
+                 
+                             <p class="video-stats">
+                                241K views &#183; 1 month ago
+                             </p>
+                        </div> 
+                    </div>
+                </div>
+        
+                <div class="video-preview">
+                    <div class="thumbnail-row">
+                        <img class="thumbnail" src="thumbnail/thumbnail-16.webp">
+                        <div class="video-time">13:32</div>
+                    </div>
+                    <div class="video-info-grid">
+                        <div class="channel-picture">
+                            <img class="profile-picture" src="channel-pictures/channel-16.jpeg">
+                        </div>
+                        <div class="video-info">
+                            <p class="video-title">
+                                How to make Low Calorie Ice Cream that actually tastes good.
+                             </p>
+                 
+                             <p class="video-author">
+                                Ethan Chlebowski
+                             </p>
+                 
+                             <p class="video-stats">
+                                2M views &#183; 2 years ago
+                             </p>
+                        </div> 
+                    </div>
+                </div>
+        
+            </section>
+        </main> 
+    </body>
+</html>
