@@ -4,4 +4,4 @@ In this project, I learned a lot of basic knowledge about HTML and CSS, as well 
 Throughout the project, I extensively used < div > content division element to separate different sections, making the webpage look richer and more modern. 
 I also challenged myself with the recently introduced CSS Grid, to better accommodate various screen sizes of mobile phones and tablets.
 
-View this project live: https://hanxiangj.github.io/YouTube-clone/
+➡️ View this project live: https://hanxiangj.github.io/YouTube-clone/
